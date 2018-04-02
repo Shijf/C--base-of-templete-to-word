@@ -1,0 +1,14 @@
+E:\Job\54\docx\docx\docx\bin\Debug\docx.exe.config
+E:\Job\54\docx\docx\docx\bin\Debug\docx.exe
+E:\Job\54\docx\docx\docx\bin\Debug\docx.pdb
+E:\Job\54\docx\docx\docx\obj\Debug\docx.csprojResolveAssemblyReference.cache
+E:\Job\54\docx\docx\docx\obj\Debug\docx.csproj.CoreCompileInputs.cache
+E:\Job\54\docx\docx\docx\obj\Debug\docx.exe
+E:\Job\54\docx\docx\docx\obj\Debug\docx.pdb
+E:\Job\54\docx\docx\docx\obj\Debug\docx.csproj.ResolveComReference.cache
+E:\Job\54\docx\docx\docx\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\Job\54\docx\docx\docx\obj\Debug\docx.csproj.CopyComplete
+E:\Job\54\docx\docx\docx\bin\Debug\docx.exe.manifest
+E:\Job\54\docx\docx\docx\bin\Debug\docx.application
+E:\Job\54\docx\docx\docx\obj\Debug\docx.exe.manifest
+E:\Job\54\docx\docx\docx\obj\Debug\docx.application
