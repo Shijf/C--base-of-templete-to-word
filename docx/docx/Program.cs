@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Collections;
+using Microsoft.Office.Interop.Word;
 using System.IO;
+
 namespace docx
 {
     class Program
@@ -20,7 +22,7 @@ namespace docx
                 
                 string TimeNow = DateTime.Now.Hour.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Second.ToString() + @"-" + ran.Next(100, 1000);
                 string SavedPath = path + @"\" + TimeNow;
-                string templatePath = @"E:\Job\54\docx\templete\profile.doc";
+                string templatePath = @"E:\Job\54\docx\templete\profile1.doc";
                 string ImgPath = @"E:\Job\54\docx\img/1.png";
             try
                 {
@@ -53,6 +55,12 @@ namespace docx
                 report.InsertText("huojiangqingkuang", text);
                 
                 report.InsertPicture("img", ImgPath, 75 , 115); //书签位置，图片路径，图片宽度，图片高度
+
+
+            Table table = report.InsertTable("table", 2, 3, 0); //在书签“Bookmark_table”处插入2行3列行宽最大的表
+
+
+
 
 
             report.SaveDocument(SavedPath); //文档路径
